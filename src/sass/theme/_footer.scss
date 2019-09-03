@@ -1,0 +1,30 @@
+@import "../common";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: $footer-height;
+  background-color: $title-text;
+  border: none;
+  color: $sub-content-text;
+  a {
+    &:link, &:visited, &:active {
+      color: $sub-content-text;
+    }
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  .footer-content {
+    position: relative;
+    height: $footer-height;
+    padding: 10px;
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
