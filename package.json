@@ -6,7 +6,7 @@
   "repository": "git@112.74.135.70:swarovski/swarovski-website.git",
   "private": true,
   "devDependencies": {
-    "browser-sync": "~2.9.11",
+    "browser-sync": "~2.9.12",
     "browser-sync-spa": "~1.0.3",
     "chalk": "~1.1.1",
     "del": "~2.0.2",
